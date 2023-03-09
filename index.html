@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="header-container">
+                <h1>Aivaro Diner</h1>
+                <h2>The best pizzas and burgers in town.</h2>
+            <div>
+        </header>
+        <main>
+            <div class='menu'>
+                
+            </div>
+            
+            <div class='selected-order hidden'>
+                <h2>Your order</h2>
+                <div class='selected-order-list'>
+                    
+                </div>
+                <div class="total-price">
+                </div>
+                <button class="complete-order-btn">Complete order</button>
+            </div>
+        
+            <div class="modal hidden">
+                <h2>Enter card details</h2>
+                <form id="consent-form">
+                    <input type="text" name="fullName" id="fullName" placeholder="Enter your name" required>
+                    <input type="number" name="cardNumber" placeholder="Enter card number" required>
+                    <input type="number" name="CVV" placeholder="Enter CVV" required>
+                    <button type="submit" id="pay-btn">Pay</button>
+                </form>
+            </div>
+            
+            <div class="purchase-accepted hidden">
+                
+            </div>
+        </main>
+        <script src="index.js" type='module'></script>
+    </body>
+</html>

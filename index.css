@@ -1,0 +1,198 @@
+html, 
+body,
+.site-header {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Smythe;
+}
+
+.hidden{
+    display: none;
+}
+
+/* HEADER */
+
+.site-header{
+    background: url('images/burger.jpg');
+    color: whitesmoke;
+    max-width: 600px;
+    background-size: cover;
+    object-fit: cover;
+    background-position: 50% 50%;
+}
+
+.site-header h1{
+    margin: 0;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10px;
+    margin: 0 3em;
+}
+
+/* MAIN LAYOUT */
+
+main{
+    margin: 0 auto;
+}
+
+/* MENU TYPOGRAPHY */
+
+.menu-description h2{
+    margin-bottom: 0.5em;
+}
+.menu-description h3{
+    margin-top: 0.5em;
+}
+.menu-description p{
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.menu-emoji{
+    font-size: 5rem;
+    margin: 0;
+}
+
+/* MENU LAYOUT, STRUCTURE */
+
+.menu{
+    width: 600px;
+    background: #e9c46a;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.menu-container{
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width: 520px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #8ecae6;
+}
+
+.image-text-container{
+    display: flex;
+    align-items: center;
+}
+
+/* MENU BUTTONS */
+
+.add-order-btn{
+    border:none;
+    border-radius: 50%;
+    font-size: 2rem;
+    height: 50px;
+    width: 50px;
+    background-color: #219ebc;
+    color: #bde0fe; 
+}
+
+.add-order-btn:hover{
+    cursor: pointer;
+    background: #023047;
+    color: #219ebc;
+}
+
+/* SELECTED ORDER STYLING */
+
+.selected-order{
+    margin: 0 auto 2rem;
+    padding-bottom: 1rem;
+    width: 520px;
+}
+
+.selected-order h2{
+    text-align: center;
+}
+
+.selected-order-list h2,
+.total-price{
+    margin: 0.1em 0.5em;
+}
+
+.order-container,
+.total-price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-name-and-btn{
+    display: flex;
+}
+
+.remove-order-btn{
+    background: transparent;
+    border: none;
+    color: #023047;
+}
+
+.total-price{
+    border-top: 2px solid #023047;
+}
+
+/* ORDER COMPLETION BUTTON STYLING */
+
+.complete-order-btn{
+    width: 100%;
+    background: #80ed99;
+    border: none;
+    padding: 1em;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 3.5px;
+}
+.complete-order-btn:hover{
+    cursor: pointer;
+}
+
+/* INPUT MODAL */
+
+.modal{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 350px;
+    height: 360px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 2px #666;
+    background: whitesmoke;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+form input{
+    width: 80%;
+    padding: 1em;
+    margin: 0.4em;
+}
+
+#pay-btn{
+    width: 90%;
+    padding: 1em;
+    margin: 0.4em;
+}
+
+.purchase-accepted{
+    width: 550px;
+    margin: 1rem auto;
+    background: #c7f9cc;
+    padding: 1px 25px;
+    border-radius: 5px;
+    color: #31572c;
+    font-size: 0.9rem
+}
+
